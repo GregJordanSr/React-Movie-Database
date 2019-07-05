@@ -1,6 +1,8 @@
-import React from 'react'
+import React from 'react';
+import { IMAGE_BASE_URL } from '../../../config';
+import './Actor.css';
 
-const Actor = () => {
+const Actor = props => {
     return (
         <div>
             <h1>Actor</h1>
