@@ -1,11 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import FontAwesome from 'react';
+import { calcTime, convertMoney } from '../../../helpers';
+import './MovieInfoBar.css';
 
-export default class MovieInfoBar extends Component {
-    render() {
+ const MovieInfoBar = props => {
         return (
             <div>
-                
+                MovieInfoBar
             </div>
         )
-    }
 }
+export default MovieInfoBar;
