@@ -28,6 +28,6 @@ Greg Jordan, Sr.
 ## Credits:
 
 ### Udemy Course 
-		* [Beginner React (2019) - Create a Movie Web App](https://www.udemy.com/learn-react-the-fun-way/)
+		* [Beginner React 2019 - Create a Movie Web App] (https://www.udemy.com/learn-react-the-fun-way/)
 
 ### Other:
