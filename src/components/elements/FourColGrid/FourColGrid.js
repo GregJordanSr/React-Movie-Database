@@ -1,5 +1,7 @@
 import React from 'react';
 import './FourColGrid.css';
+import PropTypes from 'prop-types';
+
 
 const FourColGrid = props => {
 
