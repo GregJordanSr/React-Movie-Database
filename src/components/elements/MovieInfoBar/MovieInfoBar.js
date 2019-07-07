@@ -5,8 +5,6 @@ import { calcTime, convertMoney } from '../../../helpers.js';
 import './MovieInfoBar.css';
 
  const MovieInfoBar = props => {
-
-    console.log(props);
         return (
             <div className="rmdb-movieinfobar">
                 <div className="rmdb-movieinfobar-content">

@@ -33,7 +33,7 @@
 .rmdb-movieinfo-text {
   font-family: Arial, Helvetica, sans-serif;
   padding: 40px;
-  color: #fff;
+  color: #000;
   overflow: hidden;
 }
 
@@ -77,7 +77,7 @@
   position: absolute;
   bottom: 40px;
   right: 40px;
-  color: #fff;
+  color: #000;
 }
 
 meter::-webkit-meter-bar {

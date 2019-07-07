@@ -28,7 +28,6 @@ import './Movie.css';
          fetch(endpoint)
          .then(result => result.json())
          .then(result => {
-             console.log(result);
              if (result.status_code) {
                  this.setState({ loading: false })
              } else {
@@ -58,12 +57,13 @@ import './Movie.css';
                     <div>
                         <Navigation movie={this.props.location.movieName} />
                         <MovieInfo movie={this.state.movie} directors={this.state.directors} />
-                        <MovieInfoBar time={this.state.movie.time} budget={this.state.movie.budget} revenue={this.state.movie.revenue} />
+                        <MovieInfoBar time={this.state.movie.runtime} budget={this.state.movie.budget} revenue={this.state.movie.revenue} />
                     </div>
                     : null}
                     {this.state.actors ? 
                         <div className="rmdb-movie-grid">
-                            <FourColGrid header={'Actors'}>
+                            <FourColGrid 
+                                header={'Actors'}>
                                 {this.state.actors.map( (element, i) => {
                                     return <Actor key={i} actor={element} />
                                 })}

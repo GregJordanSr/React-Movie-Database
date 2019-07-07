@@ -21,6 +21,7 @@ import Spinner from '../elements/Spinner/Spinner';
 
      
      componentDidMount() {
+         
          this.setState({ loading: true});
          const endpoint = `${API_URL}movie/popular?api_key=${API_KEY}&language=en-US&page=1`;
          this.fetchItems(endpoint);
@@ -65,6 +66,8 @@ import Spinner from '../elements/Spinner/Spinner';
                  loading: false,
                  currentPage: result.page,
                  totalPages: result.total_pages
+             }, () => {
+                 localStorage.setItem('HomeState', JSON.stringify())
              });
          })
          .catch(error => console.error('Error', error))
