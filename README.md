@@ -1,5 +1,5 @@
 # React-Movie-Database
-The following page is a React clone of IMDb site using the Movide DB API. The site is a simple single-page responsive design, including components for hero image, search bar, individual movie pages, and a load more button. 
+The following page is a React clone of IMDb site using the Movie DB API. The site is a simple single-page responsive design, including components for hero image, search bar, individual movie pages, and a load more button. 
 
 [Live link](#)
 
