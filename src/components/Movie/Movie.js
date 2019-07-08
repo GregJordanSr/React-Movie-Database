@@ -19,9 +19,14 @@ import './Movie.css';
          loading: false
      }
      componentDidMount() {
+        if (localStorage.getItem(`${this.props.match.params.movieId}`)) {
+            const state = JSON.parse(localStorage.getItem(`${this.props.match.params.movieId}`));
+            this.setState({...state});
+        } else {
          this.setState({ loading: true })
          const endpoint = `${API_URL}movie/${this.props.match.params.movieId}?api_key=${API_KEY}&language=en-US`;
          this.fetchItems(endpoint);
+        }
      }
 
      fetchItems = endpoint => {
@@ -42,6 +47,8 @@ import './Movie.css';
                              actors: result.cast,
                              directors,
                              loading: false
+                         }, () => {
+                            localStorage.setItem(`${this.props.match.params.movieId}`, JSON.stringify(this.state));
                          })
                      })
                  })
