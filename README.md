@@ -4,6 +4,7 @@ The following page is a React clone of IMDb site using the Movie DB API. The sit
 [Live link](https://gregj-rmdb.netlify.com)
 
 ## Screenshots
+![image](https://user-images.githubusercontent.com/40050726/67135382-054a3700-f1e7-11e9-9e18-11d302cb97e2.png)
 
 ### _Landing Page_
 [HomePage](https://gregj-rmdb.netlify.com/home)
