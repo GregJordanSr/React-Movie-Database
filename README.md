@@ -1,12 +1,12 @@
 # React-Movie-Database
 The following page is a React clone of IMDb site using the Movie DB API. The site is a simple single-page responsive design, including components for hero image, search bar, individual movie pages, and a load more button. 
 
-[Live link](#)
+[Live link](https://gregj-rmdb.netlify.com)
 
 ## Screenshots
 
 ### _Landing Page_
-![Landing Page](#)
+![https://gregj-rmdb.netlify.com/home](#)
 
 ## Technologies Used
 
@@ -19,7 +19,7 @@ The following page is a React clone of IMDb site using the Movie DB API. The sit
 ### API (none used)
 		* API [Documentation](#)
 
-Please offer report any feedback to me via Pull Request and/or Twitter dm @techieEliot.
+Please offer report any feedback to me via Pull Request and/or [Twitter](https://twitter.com/Abdul_Qadir41).
 
 Thanks for reading thus far,
 Greg Jordan, Sr.
