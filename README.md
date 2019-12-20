@@ -18,7 +18,7 @@ The following page is a React clone of IMDb site using the Movie DB API. The sit
 		* React
    
 ### API (none used)
-		* API [Documentation](#)
+		API [Documentation](#)
 
 Please offer report any feedback to me via Pull Request and/or [Twitter](https://twitter.com/Abdul_Qadir41).
 
@@ -28,7 +28,5 @@ Greg Jordan, Sr.
 
 ## Credits:
 
-### Udemy Course 
-		* [Beginner React 2019 - Create a Movie Web App] (https://www.udemy.com/learn-react-the-fun-way/)
 
 ### Other:
